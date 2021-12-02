@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - oraclejdk11 
+script: mvn clean verify
+notifications:
+  on_failure: always
